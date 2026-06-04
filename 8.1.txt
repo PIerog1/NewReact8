@@ -1,0 +1,25 @@
+pliki z publica nie trzeba importować bo react ich nie przetwarza
+
+wywyołanie: <img src="/logo.png" />
+
+musi być w folderze public
+można tam dac: 
+logo strony
+favicon
+PDF do pobrania
+jakieś „stałe” pliki
+
+Assets musisz importować z tamtad pliki 
+
+wywołanie:
+
+import avatar from "./assets/avatar.png";
+
+<img src={avatar} />
+
+Można tam dac : 
+
+zdjęcia produktów
+avatary userów
+ikony UI
+grafiki używane w komponentach
